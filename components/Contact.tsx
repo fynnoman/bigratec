@@ -65,6 +65,21 @@ export default function Contact() {
                 </svg>
               </a>
             </div>
+            <div className="divider-hair my-6" />
+            <div>
+              <span className="tag-num">Öffnungszeiten</span>
+              <dl className="mt-3 grid grid-cols-[110px,1fr] gap-y-1.5 text-[13.5px] text-graphite">
+                <dt className="text-ink">Mo – Do</dt>
+                <dd>09:00 – 13:00 · 14:00 – 18:00</dd>
+                <dt className="text-ink">Freitag</dt>
+                <dd>09:00 – 13:00 · 14:00 – 17:00</dd>
+                <dt className="text-ink">Samstag</dt>
+                <dd>10:00 – 12:00</dd>
+              </dl>
+              <p className="mt-3 text-[12.5px] text-mist">
+                In den Schulferien Samstags geschlossen.
+              </p>
+            </div>
           </div>
 
           {/* Form card */}

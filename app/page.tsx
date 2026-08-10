@@ -1,9 +1,11 @@
 import AuroraBackground from "@/components/AuroraBackground";
 import Nav from "@/components/Nav";
+import NewsStrip from "@/components/NewsStrip";
 import Hero from "@/components/Hero";
 import ImageBand from "@/components/ImageBand";
 import Services from "@/components/Services";
 import About from "@/components/About";
+import Founder from "@/components/Founder";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -13,6 +15,7 @@ export default function Page() {
     <>
       <AuroraBackground />
       <Nav />
+      <NewsStrip />
       <main className="relative">
         <Hero />
 
@@ -36,6 +39,8 @@ export default function Page() {
         />
 
         <About />
+
+        <Founder />
 
         <Gallery />
 

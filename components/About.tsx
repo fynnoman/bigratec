@@ -65,11 +65,17 @@ export default function About() {
                 <div>
                   <span className="tag-num">Öffnungszeiten</span>
                   <p className="mt-2 text-[14px] leading-relaxed text-graphite">
-                    Mo – Fr &nbsp; 09:00 – 13:00
+                    Mo – Do &nbsp; 09:00 – 13:00
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:00 – 18:00
+                    <br />
+                    Freitag &nbsp;&nbsp;&nbsp; 09:00 – 13:00
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:00 – 17:00
                     <br />
-                    Samstag &nbsp;&nbsp;geschlossen
+                    Samstag &nbsp;&nbsp;10:00 – 12:00
+                    <br />
+                    <span className="text-mist">In den Schulferien Sa geschlossen</span>
                   </p>
                 </div>
               </div>
